@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+article {
+    background: purple
+}
+
+article .title {
+        font-size: 6rem;
+    }
+
+article li {
+        list-style-type: none;
+    }
+
+body {
+  font-family: sans-serif, Calibri;
+  font-size: 16px;
+}
+
+label {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}

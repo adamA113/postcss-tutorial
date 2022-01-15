@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+article {
+    background: purple;
+
+    & .title {
+        font-size: 6rem;
+    }
+
+    & li {
+        list-style-type: none;
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "postcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss:watch": "postcss src/style.css --dir public --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@lodder/grunt-postcss": "^3.1.1",
+    "cssnano": "^5.0.15",
+    "grunt": "^1.4.1",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^7.2.0"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
