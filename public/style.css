@@ -15,6 +15,12 @@ article li {
         list-style-type: none;
     }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 body {
   font-family: sans-serif, Calibri;
   font-size: 16px;
@@ -25,4 +31,26 @@ label {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+::-moz-selection {
+  color: white;
+  background: blue;
+}
+
+::selection {
+  color: white;
+  background: blue;
+}
+
+::-moz-placeholder {
+  color: gray;
+}
+
+:-ms-input-placeholder {
+  color: gray;
+}
+
+::placeholder {
+  color: gray;
 }

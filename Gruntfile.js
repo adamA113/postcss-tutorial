@@ -5,8 +5,11 @@ module.exports = function(grunt) {
             options: {
                 processors: [
                     require('postcss-import')(),
+                    require('postcss-mixins'),
+                    require("stylelint"),
                     require('postcss-preset-env')({ stage: 1 }),
-                    require('cssnano')(),
+                    // require('postcss-nested'),
+                    // require('cssnano')(),
                 ]
             },
             dist: {
